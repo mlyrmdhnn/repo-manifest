@@ -11,7 +11,7 @@
         "version": "8.5.13",
         "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.5.13-nts-Win32-vs17-x64.zip",
-        "sha256": "4ae6c72bc0ca4f6b8f3e9b107874bae0135699f3aabe6c26a1f6103d040eea97",
+        "sha256": null,
         "strip_prefix": null,
         "bin_subpath": "",
         "executable": "php-cgi.exe",
