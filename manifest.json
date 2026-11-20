@@ -202,7 +202,7 @@
             "name": "Apache 2.4.71 (VS18)",
             "channel": "2.4",
             "version": "2.4.71",
-            "url": "https://www.apachelounge.com/download/VS18/binaries/httpd-2.4.71-261112-Win64-VS18.zip",
+            "url": "https://github.com/mlyrmdhnn/repo-manifest/releases/download/2.4.71/httpd-2.4.71-261112-Win64-VS18.zip",
             "sha256": null,
             "strip_prefix": "Apache24",
             "bin_subpath": "bin",
