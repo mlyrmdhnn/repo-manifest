@@ -13,6 +13,7 @@ const ALLOWED_HOSTS = [
   "get.enterprisedb.com",
   "github.com",
   "objects.githubusercontent.com",
+  "pub-2d96730c227e4b95b37c19eac13b91e0.r2.dev",
 ];
 
 function validateUrl(rawUrl) {
