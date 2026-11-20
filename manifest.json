@@ -9,10 +9,7 @@
         "channel": "8.5",
         "variant": "nts",
         "version": "8.5.13",
-        "recommended_for": [
-          "nginx",
-          "cli"
-        ],
+        "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.5.13-nts-Win32-vs17-x64.zip",
         "sha256": "4ae6c72bc0ca4f6b8f3e9b107874bae0135699f3aabe6c26a1f6103d040eea97",
         "strip_prefix": null,
@@ -29,9 +26,7 @@
         "channel": "8.5",
         "variant": "ts",
         "version": "8.5.13",
-        "recommended_for": [
-          "apache"
-        ],
+        "recommended_for": ["apache"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.5.13-Win32-vs17-x64.zip",
         "sha256": "792fe1553895ee98f9bc3c9d50c539910f7d0066676a6523207ca91429d4d475",
         "strip_prefix": null,
@@ -48,10 +43,7 @@
         "channel": "8.4",
         "variant": "nts",
         "version": "8.4.28",
-        "recommended_for": [
-          "nginx",
-          "cli"
-        ],
+        "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.4.28-nts-Win32-vs17-x64.zip",
         "sha256": "c1f9280588b7b6ad7b518969022f0b0175f106fab9d0639ad0e4ce7cd47ac1ed",
         "strip_prefix": null,
@@ -67,10 +59,8 @@
         "name": "PHP 8.4 (TS)",
         "channel": "8.4",
         "variant": "ts",
-        "version": "8.4.14",
-        "recommended_for": [
-          "apache"
-        ],
+        "version": "8.4.28",
+        "recommended_for": ["apache"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.4.28-Win32-vs17-x64.zip",
         "sha256": "59ccaa095d0f0c3fbb9f7e2bfd86713ebac032d5783cc22bc8934e2285629999",
         "strip_prefix": null,
@@ -87,10 +77,7 @@
         "channel": "8.3",
         "variant": "nts",
         "version": "8.3.37",
-        "recommended_for": [
-          "nginx",
-          "cli"
-        ],
+        "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.3.37-nts-Win32-vs16-x64.zip",
         "sha256": "38808a798485e1c0938dfcce7e942131415fc6c7834f83a5a85a4c4edb5539d6",
         "strip_prefix": null,
@@ -106,10 +93,8 @@
         "name": "PHP 8.3 (TS)",
         "channel": "8.3",
         "variant": "ts",
-        "version": "8.3.27",
-        "recommended_for": [
-          "apache"
-        ],
+        "version": "8.3.37",
+        "recommended_for": ["apache"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.3.37-Win32-vs16-x64.zip",
         "sha256": "07984bdcfd4391888954c2e73b1cf2c0d403cfa5fd8cb32ad60ddcd854c6b7de",
         "strip_prefix": null,
@@ -203,20 +188,6 @@
         "version": "2.4.71",
         "url": "https://github.com/mlyrmdhnn/repo-manifest/releases/download/2.4.71/httpd-2.4.71-261112-Win64-VS18.zip",
         "sha256": "44961a929dff16b767b3adbcea55760a942a00239b2891dc55806be34029e1fc",
-        "strip_prefix": "Apache24",
-        "bin_subpath": "bin",
-        "executable": "httpd.exe",
-        "default_port": 8080,
-        "needs_init": true,
-        "vc_redist_required": true
-      },
-      {
-        "id": "apache-2.4.63",
-        "name": "Apache 2.4.63 (VS17)",
-        "channel": "2.4",
-        "version": "2.4.63",
-        "url": "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.63-250207-win64-VS17.zip",
-        "sha256": "c7b7d9361862e57c1919ecd07e26e3491c667c16fe53a29d775ebec5a30b0d16",
         "strip_prefix": "Apache24",
         "bin_subpath": "bin",
         "executable": "httpd.exe",
