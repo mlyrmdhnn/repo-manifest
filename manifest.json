@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-22",
   "services": {
     "php": [
       {
@@ -9,10 +9,7 @@
         "channel": "8.5",
         "variant": "nts",
         "version": "8.5.13",
-        "recommended_for": [
-          "nginx",
-          "cli"
-        ],
+        "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.5.13-nts-Win32-vs17-x64.zip",
         "sha256": "4ae6c72bc0ca4f6b8f3e9b107874bae0135699f3aabe6c26a1f6103d040eea97",
         "strip_prefix": null,
@@ -29,9 +26,7 @@
         "channel": "8.5",
         "variant": "ts",
         "version": "8.5.13",
-        "recommended_for": [
-          "apache"
-        ],
+        "recommended_for": ["apache"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.5.13-Win32-vs17-x64.zip",
         "sha256": "792fe1553895ee98f9bc3c9d50c539910f7d0066676a6523207ca91429d4d475",
         "strip_prefix": null,
@@ -48,10 +43,7 @@
         "channel": "8.4",
         "variant": "nts",
         "version": "8.4.28",
-        "recommended_for": [
-          "nginx",
-          "cli"
-        ],
+        "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.4.28-nts-Win32-vs17-x64.zip",
         "sha256": "c1f9280588b7b6ad7b518969022f0b0175f106fab9d0639ad0e4ce7cd47ac1ed",
         "strip_prefix": null,
@@ -68,9 +60,7 @@
         "channel": "8.4",
         "variant": "ts",
         "version": "8.4.28",
-        "recommended_for": [
-          "apache"
-        ],
+        "recommended_for": ["apache"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.4.28-Win32-vs17-x64.zip",
         "sha256": "59ccaa095d0f0c3fbb9f7e2bfd86713ebac032d5783cc22bc8934e2285629999",
         "strip_prefix": null,
@@ -87,10 +77,7 @@
         "channel": "8.3",
         "variant": "nts",
         "version": "8.3.37",
-        "recommended_for": [
-          "nginx",
-          "cli"
-        ],
+        "recommended_for": ["nginx", "cli"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.3.37-nts-Win32-vs16-x64.zip",
         "sha256": "38808a798485e1c0938dfcce7e942131415fc6c7834f83a5a85a4c4edb5539d6",
         "strip_prefix": null,
@@ -107,9 +94,7 @@
         "channel": "8.3",
         "variant": "ts",
         "version": "8.3.37",
-        "recommended_for": [
-          "apache"
-        ],
+        "recommended_for": ["apache"],
         "url": "https://windows.php.net/downloads/releases/archives/php-8.3.37-Win32-vs16-x64.zip",
         "sha256": "07984bdcfd4391888954c2e73b1cf2c0d403cfa5fd8cb32ad60ddcd854c6b7de",
         "strip_prefix": null,
@@ -201,8 +186,8 @@
         "name": "Apache 2.4.71 (VS18)",
         "channel": "2.4",
         "version": "2.4.71",
-        "url": "https://pub-2d96730c227e4b95b37c19eac13b91e0.r2.dev/apache/httpd-2.4.71-261112-Win64-VS18.zip",
-        "sha256": "44961a929dff16b767b3adbcea55760a942a00239b2891dc55806be34029e1fc",
+        "url": "https://symen.mulyaranadhan.workers.dev/apache/httpd-2.4.71-261112-Win64-VS18.zip",
+        "sha256": null,
         "strip_prefix": "Apache24",
         "bin_subpath": "bin",
         "executable": "httpd.exe",
@@ -217,8 +202,8 @@
         "name": "MySQL 9.7 (LTS)",
         "channel": "9.7 LTS",
         "version": "9.7.4",
-        "url": "https://pub-2d96730c227e4b95b37c19eac13b91e0.r2.dev/mysql/mysql-9.7.4-winx64.zip",
-        "sha256": "641bdaf01004927194c561b956f14f915a3166c9b0f9b1b5464ae63152bf4b96",
+        "url": "https://symen.mulyaranadhan.workers.dev/mysql/mysql-9.7.4-winx64.zip",
+        "sha256": null,
         "strip_prefix": "mysql-9.7.4-winx64",
         "bin_subpath": "bin",
         "executable": "mysqld.exe",
@@ -231,8 +216,8 @@
         "name": "MySQL 8.4 LTS",
         "channel": "8.4 LTS",
         "version": "8.4.13",
-        "url": "https://pub-2d96730c227e4b95b37c19eac13b91e0.r2.dev/mysql/mysql-8.4.13-winx64.zip",
-        "sha256": "e9cd98b1d23f122987b1afca26ad942efec5891481103d48ae3cde237fa3ea54",
+        "url": "https://symen.mulyaranadhan.workers.dev/mysql/mysql-8.4.13-winx64.zip",
+        "sha256": null,
         "strip_prefix": "mysql-8.4.13-winx64",
         "bin_subpath": "bin",
         "executable": "mysqld.exe",
@@ -245,8 +230,8 @@
         "name": "MySQL 8.0",
         "channel": "8.0",
         "version": "8.0.46",
-        "url": "https://pub-2d96730c227e4b95b37c19eac13b91e0.r2.dev/mysql/mysql-8.0.46-winx64.zip",
-        "sha256": "28e9eda019d88eff4478d811ea2110b83f02a3966be157fe91cc55def3ab0d4d",
+        "url": "https://symen.mulyaranadhan.workers.dev/mysql/mysql-8.0.46-winx64.zip",
+        "sha256": null,
         "strip_prefix": "mysql-8.0.46-winx64",
         "bin_subpath": "bin",
         "executable": "mysqld.exe",
