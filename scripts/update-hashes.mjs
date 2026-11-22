@@ -14,6 +14,7 @@ const ALLOWED_HOSTS = [
   "github.com",
   "objects.githubusercontent.com",
   "pub-2d96730c227e4b95b37c19eac13b91e0.r2.dev",
+  "symen.mulyaranadhan.workers.dev",
 ];
 
 function validateUrl(rawUrl) {

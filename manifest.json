@@ -275,7 +275,7 @@
         "channel": "16",
         "version": "16.11",
         "url": "https://get.enterprisedb.com/postgresql/postgresql-16.11-1-windows-x64-binaries.zip",
-        "sha256": "3761aee1252a2083679020b5dc79c75df2d567eea708a2cbb9f6ff5402e27101",
+        "sha256": null,
         "strip_prefix": "pgsql",
         "bin_subpath": "bin",
         "executable": "pg_ctl.exe",
